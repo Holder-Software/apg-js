@@ -13,7 +13,7 @@ const emitCss = require('./emitcss');
 const id = require('./identifiers');
 
 const thisFileName = 'utilities.js: ';
-const thisThis = this;
+const thisThis = exports;
 
 /* translate (implied) phrase beginning character and length to actual first and last character indexes */
 /* used by multiple phrase handling functions */

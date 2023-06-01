@@ -11,7 +11,7 @@
 
 'use strict;';
 
-const thisThis = this;
+const thisThis = exports;
 const trans = require('./transformers');
 
 /* types */

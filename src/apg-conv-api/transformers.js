@@ -10,7 +10,7 @@
 
 'use strict;';
 
-const thisThis = this;
+const thisThis = exports;
 
 /* decoding error codes */
 const NON_SHORTEST = 0xfffffffc;
